@@ -1,0 +1,80 @@
+.header {
+    background-color: $color-black-light;
+    color: $color-gray-light;
+    padding: 15px;
+
+    @media (min-width: 768px) {
+        padding: 17px;
+    }
+
+    &__icon {
+        width: 16px;
+        height: 16px;
+
+        @media (min-width: 768px) {
+           display: none;
+        }
+
+        &-menu {
+            width: 16px;
+            height: 16px;
+        }
+    }
+
+    &__logo {
+        width: 100px;
+        height: 30px;
+
+         
+        @media (min-width: 768px) {
+            width: 150px;
+            height: 44px;
+        } 
+    }
+
+    &__btn {
+        background-color: $color-gray-light;
+        color: $color-gray-dark;
+        border-radius: 3px;
+        padding: 5px 10px;
+        font-size: 12px;
+        box-shadow: 0 0 10px 5px rgba(0,0,0,0.2);
+        border: none;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    &__menu {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 16px 0 0 0;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+
+    &__list {
+        margin: 0 29px 0 0;
+    }
+
+    &__info {
+        padding-bottom: 18px;
+        font-size: 12px;
+        display: flex;
+        text-transform: uppercase;
+        position: relative;
+        font-weight: bold;
+
+        &::after {
+            content: '';
+            background-color: $color-gray;
+            height: 1px;
+            // width: 100%;
+            bottom: 0;
+            left: 0;
+            right: -30px;
+            position: absolute;
+        }
+    }
+
+}

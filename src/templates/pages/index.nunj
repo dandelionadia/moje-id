@@ -1,6 +1,59 @@
 {% extends "layouts/default.nunj" %}
 {% import "atoms/button.nunj" as buttons %}
 
+{% block header %}
+<div class="header">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <div class="col-2 d-flex d-md-none">
+        <img src="../assets/images/header-burger.svg" class="header__icon"></img>
+      </div>
+
+      <div class="col col-md-auto d-flex justify-content-center justify-content-md-start">
+        <img src="../assets/images/mojeid-logo.svg" class="header__logo"></img>
+
+      </div>
+
+      <div class="col-2 d-flex justify-content-end d-md-none">
+        <img src="../assets/images/header-hledat.svg" class="header__icon"></img>
+      </div>
+      
+      <div class="col d-none d-md-block">
+
+        <div class="header__info">
+          <span class="mr-3">infoinfo</span>
+          <span class="mr-3">infoinfo</span>          
+        </div>
+        <ul class="header__menu">
+          <li class="header__list">
+            <a>home</a>
+          </li>
+          <li class="header__list">
+            <a>boxbox</a>
+          </li>
+          <li class="header__list">
+            <a>toptop</a>
+          </li>
+          <li class="header__list">
+            <a>nextnext</a>
+          </li>
+          <li class="header__list">
+              <img src="../assets/images/header-hledat.svg" class="header__icon-menu"></img>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-auto d-none d-lg-block">
+        <button class="header__btn">jmenuju se batton</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+
 {% block content %}
 <div class="container">
   <div class="row">
