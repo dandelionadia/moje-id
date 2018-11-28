@@ -22,7 +22,7 @@
       <div class="col d-none d-md-block">
 
         <div class="header__info">
-          <span class="mr-3">infoinfo</span>
+          <span class="mr-3 header__info--color">infoinfo</span>
           <span class="mr-3">infoinfo</span>          
         </div>
         <ul class="header__menu">
@@ -61,6 +61,109 @@
       <h1>Index page</h1>
       <p>Edit <code>src/templates/pages/index.nunj</code> to see the changes.</p>
       {{ buttons.button('Foo') }}
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block footer %}
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+
+        <div class="row  dashed">
+          <div class="col-12 col-md-3">
+            <img src="../assets/images/mojeid-logo-footer.svg" class="footer__logo"></img>
+          </div>
+          <div class="col-12 col-md-3 dashed__item">
+            <ul class="footer__menu">
+              <li class="footer__menu--list">
+                <a>home</a>
+              </li>
+              <li class="footer__menu--list">
+                <a>boxbox</a>
+              </li>
+              <li class="footer__menu--list">
+                <a>toptop</a>
+              </li>
+              <li class="footer__menu--list">
+                <a>nextnext</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-3 dashed__item">
+            <ul class="footer__menu">
+              <li class="footer__menu--list">
+                <a>home</a>
+              </li>
+              <li class="footer__menu--list">
+                <a>boxbox</a>
+              </li>
+              <li class="footer__menu--list">
+                <a>toptop</a>
+              </li>
+              <li class="footer__menu--list">
+                <a>nextnext</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-md-3 dashed__item">
+            <ul class="footer__menu">
+              <li class="footer__menu--list">
+                <a>home</a>
+              </li>
+              <li class="footer__menu--list">
+                <a>boxbox</a>
+              </li>
+              <li class="footer__menu--list">
+                <a>toptop</a>
+              </li>
+              <li class="footer__menu--list">
+                <a>nextnext</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-12">
+        <div class="row">
+          <div class="col-12 dashed__item--info d-md-none">
+          <div>
+            <div class="footer__contact">
+              <p>Fsame site, instead hide element responsivel screen size.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12">
+        <div class="row">
+          <div class="col-3 d-none d-md-block"> </div>
+          <div class="col-12 col-md-9 dashed__item--info">
+          <div>
+            <div class="footer__info">
+              <p> lorem lorem </p>
+              <p>For faster mobile-friendly development, use responsive display classes for showing and hiding elements by device. Avoid creating entirely different versions of the same site, instead hide element responsively for each screen size.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12">    
+        <div class="row">
+          <div class="col-12 dashed__item--info d-none d-md-block">
+          <div>
+            <div class="footer__contact">
+              <p>Fsame site, instead hide element responsively for each screen size.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </div>

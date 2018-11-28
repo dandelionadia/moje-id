@@ -1,0 +1,66 @@
+.footer {
+    background-color: $color-gray-dark;
+    color: $color-gray;
+    padding: 60px 30px 30px 30px;
+
+    @media (max-width: 768px) {
+        padding: 30px 10px;
+    }
+
+    &__logo {
+        width: 100px;
+        height: 30px;
+    }
+
+    &__menu {
+        list-style: none;
+        padding: 10px 0 0 0;
+
+        @media (min-width: 768px) {
+            margin: 0x 10px 15px 10px;
+            padding-top: 0;
+        }
+    }
+
+    &__info {
+        color: $color-black-dark;
+        font-size: 12px;
+
+        @media (min-width: 768px) {
+            margin-top: 15px;
+        }
+
+    }
+
+    &__contact {
+        color: $color-black-dark;
+        text-align: center;
+        font-size: 24px;
+        margin: 35px;
+
+        @media (min-width: 768px) {
+            border-top: 1px solid $color-black-dark;
+            padding-top: 40px;
+            font-size: 32px;
+        }
+    }
+}
+
+.dashed > .dashed__item:not(:last-child) {
+    border-right: 1px solid $color-black-dark;
+
+    @media (max-width: 768px) {
+        border-right: none;
+        border-bottom: 1px solid $color-black-dark;
+    }
+ }
+
+ .dashed__item--info {
+    border-top: 1px solid $color-black-dark;
+    padding-left: 0;
+
+    @media (min-width: 768px) {
+        border-top: none;
+        padding-left: 15px;
+    }
+ }

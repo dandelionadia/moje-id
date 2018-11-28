@@ -1,6 +1,6 @@
 .header {
     background-color: $color-black-light;
-    color: $color-gray-light;
+    color:  $color-gray-light;
     padding: 15px;
 
     @media (min-width: 768px) {
@@ -34,7 +34,7 @@
 
     &__btn {
         background-color: $color-gray-light;
-        color: $color-gray-dark;
+        color: $color-black-dark;
         border-radius: 3px;
         padding: 5px 10px;
         font-size: 12px;
@@ -67,13 +67,24 @@
 
         &::after {
             content: '';
-            background-color: $color-gray;
+            background-color: $color-black-dark;
             height: 1px;
             // width: 100%;
             bottom: 0;
             left: 0;
             right: -30px;
             position: absolute;
+        }
+
+        // & > span:not(last-child) {
+        //     border-right: 1px solid $color-gray-light;
+        // }
+        & > span:not(:last-child)::after {
+            content:' |';
+        }
+
+        &--color {
+            color: $color-black-dark;
         }
     }
 

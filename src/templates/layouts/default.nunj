@@ -9,6 +9,9 @@
 
   {% block content %}{% endblock %}
 
+  {% block footer %}{% endblock %}
+
+
   <script src="/assets/jquery-3.3.1.min.js"></script>
   <script src="/js/index.js"></script>
 </body>
