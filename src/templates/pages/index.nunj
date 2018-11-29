@@ -53,6 +53,17 @@
 </div>
 {% endblock %}
 
+{% block banner %}
+<div class="banner">
+  <img class="banner__img" src="../assets/images/index-hero-poskyt.svg"></img>
+  <div class="banner__verify">
+    <span class="banner__title">Lorem Ipsum is simply dummy text </span>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+    <button class="banner__btn">button lorem</button>
+  </div>
+</div>
+{% endblock %}
+
 
 {% block content %}
 <div class="container">
@@ -135,16 +146,14 @@
         </div>
       </div>
 
-      <div class="col-12">
-        <div class="row">
-          <div class="col-12 col-md-9 offset-md-3 dashed__item--info">
-            <div class="footer__info">
-              <p> lorem lorem </p>
-              <p>For faster mobile-friendly development, use responsive display classes for showing and hiding elements by device. Avoid creating entirely different versions of the same site, instead hide element responsively for each screen size.</p>
-            </div>
-          </div>
+      
+      <div class="col-12 col-md-9 offset-md-3 dashed__item--info">
+        <div class="footer__info">
+          <p> lorem lorem </p>
+          <p>For faster mobile-friendly development, use responsive display classes for showing and hiding elements by device. Avoid creating entirely different versions of the same site, instead hide element responsively for each screen size.</p>
         </div>
       </div>
+
 
       <div class="col-12 dashed__item--info d-none d-md-block">    
         <div class="footer__contact">
