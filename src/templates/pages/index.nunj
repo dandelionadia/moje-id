@@ -65,7 +65,7 @@
           <img class="banner__img" src="../assets/images/index-hero-poskyt.svg"></img>
           <div class="banner__verify">
             <span class="banner__title">Lorem Ipsum is simply dummy text </span>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+            <p class="banner__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
             <button class="banner__btn">button lorem</button>
           </div>
           
@@ -100,14 +100,32 @@
 {% block carousel %}
 <div class="carousel">
   <div>
-    {{ slides.slide('assets/images/profile-1.png', 'assets/images/reference-stin.svg', 'title 1', 'text texttexteb', 'avtor') }}
+    {{ slides.slide('assets/images/profile-1.png', 'assets/images/reference-stin.svg', 'eBadatelna 1', ' „Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui.“ ', 'Františka Omáčka, CIO') }}
   </div>
   <div>
-    {{ slides.slide('assets/images/profile-1.png', 'assets/images/reference-stin.svg', 'title 2', 'text texttexteb', 'avtor') }}
+    {{ slides.slide('assets/images/profile-1.png', 'assets/images/reference-stin.svg', 'eBadatelna 1', ' „Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui.“ ', 'Františka Omáčka, CIO') }}
   </div>
   <div>
-    {{ slides.slide('assets/images/profile-1.png', 'assets/images/reference-stin.svg', 'title 3', 'text texttexteb', 'avtor') }}
+    {{ slides.slide('assets/images/profile-1.png', 'assets/images/reference-stin.svg', 'eBadatelna 1', ' „Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui.“ ', 'Františka Omáčka, CIO') }}
   </div>
+  <div>
+    {{ slides.slide('assets/images/profile-1.png', 'assets/images/reference-stin.svg', 'title 2', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ', 'avtor') }}
+  </div>
+  <div>
+    {{ slides.slide('assets/images/profile-1.png', 'assets/images/reference-stin.svg', 'title 3', 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ', 'avtor') }}
+  </div>
+</div>
+{% endblock %}
+
+{% block video %}
+<div class="container">
+  <div class="row">
+    <div class="col-12  d-flex justify-content-center">
+      <div>
+        <iframe class="video" width="933" height="525" src="https://www.youtube.com/embed/8n-v2ifN-hc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>  
 </div>
 {% endblock %}
 

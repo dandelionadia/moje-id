@@ -19,6 +19,7 @@
 
         @media (min-width: 768px) {
             transform: none;
+            margin-bottom: 80px;
         }
     }
 
@@ -35,6 +36,10 @@
         color: $color-white;
         font-size: 24px;
         font-weight: bold;
+    }
+
+    &__text {
+        line-height: 2rem;
     }
     
     &__btn {
