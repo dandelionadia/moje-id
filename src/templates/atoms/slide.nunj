@@ -1,0 +1,19 @@
+{% macro slide(foto, img, title, text, avtor) %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-6 d-none d-md-block">
+      <div class="slide">
+        <img src="{{foto}}" class="slide__foto"></img>
+        <img src="{{img}}" class="slide__img"></img>
+      </div>
+    </div>
+    <div class="col-12 col-md-6">
+      <div class="slide__title">{{title}}</div>
+      <div class="slide__text">{{text}}</div>
+      <div class="slide__avtor">{{avtor}}</div>
+    </div>
+  </div>
+</div>
+
+{% endmacro %}

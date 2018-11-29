@@ -1,0 +1,53 @@
+.carousel {
+    height: 400px;
+    margin: 80px 0;
+}
+
+.slick-dots  {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+    .slick-active button {
+        background-color: $color-blue;
+    }
+
+    button {
+        background-color: #D9DEE2;
+        height: 12px;
+        width: 12px;
+        border-radius: 50%;
+        font-size: 0;
+        margin-right: 25px;
+        border: none;
+    }
+}
+
+.slide {
+    text-align: center;
+
+    &__foto {
+        margin: auto;
+    }
+
+    &__img {
+        width: 202px;
+        text-align: center;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    &__title {
+        color: $color-blue;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    &__text {
+        color: $color-black-dark;
+    }
+
+    &__avtor {
+        color: $color-gray;
+    }
+}

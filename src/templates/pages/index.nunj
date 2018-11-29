@@ -1,5 +1,7 @@
 {% extends "layouts/default.nunj" %}
 {% import "atoms/button.nunj" as buttons %}
+{% import "atoms/slide.nunj" as slides %}
+
 
 {% block header %}
 <div class="header">
@@ -74,19 +76,6 @@
 </div>
 {% endblock %}
 
-
-{% block content %}
-<div class="container">
-  <div class="row">
-    <div class="col-12">
-      <h1>Index page</h1>
-      <p>Edit <code>src/templates/pages/index.nunj</code> to see the changes.</p>
-      {{ buttons.button('Foo') }}
-    </div>
-  </div>
-</div>
-{% endblock %}
-
 {% block statistic %}
 <div class="block-statistic">
   <div class="container text-center">
@@ -104,6 +93,20 @@
         <p class="stats__text">lorem lorem</p>     
       </div>
     </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block carousel %}
+<div class="carousel">
+  <div>
+    {{ slides.slide('assets/images/profile-1.png', 'assets/images/reference-stin.svg', 'title 1', 'text texttexteb', 'avtor') }}
+  </div>
+  <div>
+    {{ slides.slide('assets/images/profile-1.png', 'assets/images/reference-stin.svg', 'title 2', 'text texttexteb', 'avtor') }}
+  </div>
+  <div>
+    {{ slides.slide('assets/images/profile-1.png', 'assets/images/reference-stin.svg', 'title 3', 'text texttexteb', 'avtor') }}
   </div>
 </div>
 {% endblock %}
