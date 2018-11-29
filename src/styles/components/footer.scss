@@ -14,11 +14,12 @@
 
     &__menu {
         list-style: none;
-        padding: 10px 0 0 0;
+        margin: 0;
+        padding: 10px 0;
 
         @media (min-width: 768px) {
-            margin: 0x 10px 15px 10px;
             padding-top: 0;
+            padding-bottom: 0;
         }
     }
 
@@ -46,21 +47,24 @@
     }
 }
 
-.dashed > .dashed__item:not(:last-child) {
-    border-right: 1px solid $color-black-dark;
+.dashed__item {
+    border: 0;
+    border-right-width: 1px;
+    border-color: $color-black-dark;
+    border-style: solid;
 
     @media (max-width: 768px) {
-        border-right: none;
-        border-bottom: 1px solid $color-black-dark;
+        border-right-width: 0;
+        border-bottom-width: 1px;
     }
  }
 
- .dashed__item--info {
-    border-top: 1px solid $color-black-dark;
-    // padding-left: 0;
+//  .dashed__item--info {
+//     border-top: 1px solid $color-black-dark;
+//     // padding-left: 0;
 
-    @media (min-width: 768px) {
-        border-top: none;
-        padding-left: 15px;
-    }
- }
+//     @media (min-width: 768px) {
+//         border-top: none;
+//         padding-left: 15px;
+//     }
+//  }
