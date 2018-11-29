@@ -4,7 +4,7 @@
     padding: 60px 30px 30px 30px;
 
     @media (max-width: 768px) {
-        padding: 30px 10px;
+        padding: 30px 0 10px 0;
     }
 
     &__logo {
@@ -26,9 +26,10 @@
     &__info {
         color: $color-black-dark;
         font-size: 12px;
+        margin-top: 20px;
 
         @media (min-width: 768px) {
-            margin-top: 15px;
+            margin-top: 40px;
         }
 
     }
@@ -37,12 +38,13 @@
         color: $color-black-dark;
         text-align: center;
         font-size: 24px;
-        margin: 35px 0;
+        margin: 25px 0;
 
         @media (min-width: 768px) {
             border-top: 1px solid $color-black-dark;
             padding-top: 40px;
             font-size: 32px;
+            margin-bottom: 0;
         }
     }
 }
@@ -59,12 +61,12 @@
     }
  }
 
-//  .dashed__item--info {
-//     border-top: 1px solid $color-black-dark;
-//     // padding-left: 0;
+ .dashed__item--info {
+    border-top: 1px solid $color-black-dark;
+    // margin-top: 40px;
 
-//     @media (min-width: 768px) {
-//         border-top: none;
-//         padding-left: 15px;
-//     }
-//  }
+    @media (min-width: 768px) {
+        border-top: none;
+        padding-left: 15px;
+    }
+ }

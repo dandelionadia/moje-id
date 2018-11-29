@@ -109,7 +109,7 @@
             </ul>
           </div>
 
-          <div class="col-12 col-md-3">
+          <div class="col-12 col-md-3 ">
             <ul class="footer__menu">
               <li class="footer__menu--list">
                 <a>home</a>
