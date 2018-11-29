@@ -87,6 +87,27 @@
 </div>
 {% endblock %}
 
+{% block statistic %}
+<div class="block-statistic">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-12">
+        <p class="stats__count stats__count--lead">556 890</p>
+        <p class="stats__text stats__text--lead">lorem lorem</p>
+      </div>
+      <div class="col-12 col-md-6">
+        <p class="stats__count">218</p>
+        <p class="stats__text">lorem lorem</p>     
+      </div>
+      <div class="col-12 col-md-6">
+        <p class="stats__count">123</p>
+        <p class="stats__text">lorem lorem</p>     
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
 {% block footer %}
 <div class="footer">
   <div class="container">

@@ -1,0 +1,44 @@
+.stats {
+    &__count {
+        color: $color-blue;
+        font-size: 26px;
+        margin: 0;
+
+        @media (min-width: 768px) {
+            font-size: 26px;
+        }
+
+        &--lead {
+            font-size: 48px;
+            line-height: 4rem;
+
+            @media (min-width: 768px) {
+                font-size: 96px;
+                line-height: 6rem;
+            }
+        }
+    }
+
+    &__text {
+        color: $color-gray;
+        font-size: 18px;
+
+        &--lead {
+
+            @media (min-width: 768px) {
+                font-size: 40px;
+                color: #818181;
+                margin-bottom: 60px;
+            }
+        }
+    }
+}
+
+.block-statistic {
+    background-color: $color-white;
+    padding: 60px 0;
+
+    @media (min-width: 768px) {
+        padding: 100px 0;
+    }
+}

@@ -11,6 +11,8 @@
 
   {% block content %}{% endblock %}
 
+  {% block statistic %}{% endblock %}
+
   {% block footer %}{% endblock %}
 
 
