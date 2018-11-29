@@ -54,12 +54,22 @@
 {% endblock %}
 
 {% block banner %}
-<div class="banner">
-  <img class="banner__img" src="../assets/images/index-hero-poskyt.svg"></img>
-  <div class="banner__verify">
-    <span class="banner__title">Lorem Ipsum is simply dummy text </span>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-    <button class="banner__btn">button lorem</button>
+<div class="banner__color">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="banner">
+
+          <img class="banner__img" src="../assets/images/index-hero-poskyt.svg"></img>
+          <div class="banner__verify">
+            <span class="banner__title">Lorem Ipsum is simply dummy text </span>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+            <button class="banner__btn">button lorem</button>
+          </div>
+          
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 {% endblock %}
