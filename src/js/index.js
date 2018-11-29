@@ -1,6 +1,6 @@
 $(document).ready(function () {
   $('.carousel').slick({
-    // arrows: false,
+    arrows: false,
     dots: true
   });
 });
