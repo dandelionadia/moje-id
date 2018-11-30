@@ -1,5 +1,4 @@
 {% extends "layouts/default.nunj" %}
-{% import "atoms/button.nunj" as buttons %}
 {% import "atoms/slide.nunj" as slides %}
 
 
@@ -24,21 +23,21 @@
       <div class="col d-none d-md-block">
 
         <div class="header__info">
-          <span class="mr-3 header__info--color">infoinfo</span>
-          <span class="mr-3">infoinfo</span>          
+          <span class="mr-3 header__info--color">Pro uživatele</span>
+          <span class="mr-3"> Pro poskytovatele</span>          
         </div>
         <ul class="header__menu">
           <li class="header__list">
-            <a>home</a>
+            <a>Proč mojeID</a>
           </li>
           <li class="header__list">
-            <a>boxbox</a>
+            <a>Varianty a ceny</a>
           </li>
           <li class="header__list">
-            <a>toptop</a>
+            <a>Jak zavést</a>
           </li>
           <li class="header__list">
-            <a>nextnext</a>
+            <a>O nás</a>
           </li>
           <li class="header__list">
               <img src="../assets/images/header-hledat.svg" class="header__icon-menu"></img>
@@ -47,7 +46,7 @@
       </div>
 
       <div class="col-auto d-none d-lg-block">
-        <button class="header__btn">jmenuju se batton</button>
+        <button class="header__btn">Přihlásit do mojeID</button>
       </div>
 
     </div>
@@ -64,7 +63,7 @@
 
           <img class="banner__img" src="../assets/images/index-hero-poskyt.svg"></img>
           <div class="banner__verify">
-            <span class="banner__title">Lorem Ipsum is simply dummy text </span>
+            <h1 class="banner__title">Ověření uživatelé na Váš web</h1>
             <p class="banner__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
             <button class="banner__btn">button lorem</button>
           </div>
@@ -142,32 +141,32 @@
           <div class="col-12 col-md-3">
             <ul class="footer__menu dashed__item">
               <li class="footer__menu--list">
-                <a>home</a>
+                <a>Home</a>
               </li>
               <li class="footer__menu--list">
-                <a>boxbox</a>
+                <a>Box</a>
               </li>
               <li class="footer__menu--list">
-                <a>toptop</a>
+                <a>Kontakty</a>
               </li>
               <li class="footer__menu--list">
-                <a>nextnext</a>
+                <a>Lorem</a>
               </li>
             </ul>
           </div>
           <div class="col-12 col-md-3">
             <ul class="footer__menu dashed__item">
               <li class="footer__menu--list">
-                <a>home</a>
+                <a>Home</a>
               </li>
               <li class="footer__menu--list">
-                <a>boxbox</a>
+                <a>Boxbox</a>
               </li>
               <li class="footer__menu--list">
-                <a>toptop</a>
+                <a>Kontakty</a>
               </li>
               <li class="footer__menu--list">
-                <a>nextnext</a>
+                <a>Lorem</a>
               </li>
             </ul>
           </div>
@@ -175,16 +174,16 @@
           <div class="col-12 col-md-3 ">
             <ul class="footer__menu">
               <li class="footer__menu--list">
-                <a>home</a>
+                <a>Home</a>
               </li>
               <li class="footer__menu--list">
-                <a>boxbox</a>
+                <a>Box</a>
               </li>
               <li class="footer__menu--list">
-                <a>toptop</a>
+                <a>Kontakty</a>
               </li>
               <li class="footer__menu--list">
-                <a>nextnext</a>
+                <a>Lorem</a>
               </li>
             </ul>
           </div>
@@ -194,22 +193,23 @@
 
       <div class="col-12 dashed__item--info d-md-none">
         <div class="footer__contact">
-          <p>Fsame site, instead hide element responsivel screen size.</p>
+          <p>Nonstop podpora na +420 222 745 111 a podpora@mojeid.cz</p>
         </div>
       </div>
 
       
       <div class="col-12 col-md-9 offset-md-3 dashed__item--info">
         <div class="footer__info">
-          <p> lorem lorem </p>
-          <p>For faster mobile-friendly development, use responsive display classes for showing and hiding elements by device. Avoid creating entirely different versions of the same site, instead hide element responsively for each screen size.</p>
+          <p>Copyright 2017 CZ.NIC, z. s. p. o.</p>
+          <p>Službu mojeID provozuje sdružení CZ.NIC, zájmové sdružení právnických osob zapsáno ve spolkovém rejstříku vedeném u Městského soudu v Praze, spisová značka L 58624.
+</p>
         </div>
       </div>
 
 
       <div class="col-12 dashed__item--info d-none d-md-block">    
         <div class="footer__contact">
-          <p>Fsame site, instead hide element responsively for each screen size.</p>
+          <p>Nonstop podpora na +420 222 745 111 a podpora@mojeid.cz</p>
         </div>
       </div>
 

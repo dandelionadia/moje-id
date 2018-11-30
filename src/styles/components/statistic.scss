@@ -1,8 +1,9 @@
 .stats {
     &__count {
         color: $color-blue;
-        font-size: 26px;
+        font-size: 18px;
         margin: 0;
+        font-weight: bold;
 
         @media (min-width: 768px) {
             font-size: 26px;

@@ -39,6 +39,7 @@
         text-align: center;
         font-size: 24px;
         margin: 25px 0;
+        font-weight: bold;
 
         @media (min-width: 768px) {
             border-top: 1px solid $color-black-dark;
@@ -63,7 +64,6 @@
 
  .dashed__item--info {
     border-top: 1px solid $color-black-dark;
-    // margin-top: 40px;
 
     @media (min-width: 768px) {
         border-top: none;

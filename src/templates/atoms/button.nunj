@@ -1,3 +1,0 @@
-{% macro button(text) %}
-<button>{{ text }}</button>
-{% endmacro %}

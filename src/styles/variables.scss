@@ -3,7 +3,6 @@ $color-blue: #3EA6FF;
 $color-yellow: #FFCA00;
 $color-white: #FFFFFF;
 $color-black: #020200;
-// $color-black-light: #404040;
 $color-black-dark: #666666;
 $color-gray-light: #F2F2F2;
 $color-gray: #B3B3B3;
@@ -12,6 +11,6 @@ $color-brown: #665200;
 
 
 /* Fonts */
-$font-family: -apple-system, BlinkMacSystemFont;
-$font-family-serif: Georgia;
+$font-family: 'Helvetica Neue';
+$font-family-fallback: -apple-system, BlinkMacSystemFont, Ubuntu, Helvetica, Arial, sans-serif;
 $font-size-base: 16px;

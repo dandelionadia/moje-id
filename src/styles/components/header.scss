@@ -32,18 +32,6 @@
         } 
     }
 
-    &__btn {
-        background-color: $color-gray-light;
-        color: $color-black-dark;
-        border-radius: 3px;
-        padding: 5px 10px;
-        font-size: 12px;
-        box-shadow: 0 0 10px 5px rgba(0,0,0,0.2);
-        border: none;
-        font-weight: bold;
-        text-transform: uppercase;
-    }
-
     &__menu {
         display: flex;
         list-style: none;
@@ -69,16 +57,12 @@
             content: '';
             background-color: $color-black-dark;
             height: 1px;
-            // width: 100%;
             bottom: 0;
             left: 0;
             right: -30px;
             position: absolute;
         }
 
-        // & > span:not(last-child) {
-        //     border-right: 1px solid $color-gray-light;
-        // }
         & > span:not(:last-child)::after {
             content:' |';
         }
