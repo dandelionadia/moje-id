@@ -23,21 +23,25 @@
       <div class="col d-none d-md-block">
 
         <div class="header__info">
-          <span class="mr-3 header__info--color">Pro uživatele</span>
-          <span class="mr-3"> Pro poskytovatele</span>          
+          <span class="mr-3 header__info--color">
+            <a class="header__info--color header__info--hover" href="#">Pro uživatele</a>
+          </span>
+          <span class="mr-3">
+            <a class="header__link" href="#"> Pro poskytovatele</a>
+          </span>          
         </div>
         <ul class="header__menu">
           <li class="header__list">
-            <a>Proč mojeID</a>
+            <a class="header__link" href="#">Proč mojeID</a>
           </li>
           <li class="header__list">
-            <a>Varianty a ceny</a>
+            <a class="header__link" href="#">Varianty a ceny</a>
           </li>
           <li class="header__list">
-            <a>Jak zavést</a>
+            <a class="header__link" href="#">Jak zavést</a>
           </li>
           <li class="header__list">
-            <a>O nás</a>
+            <a class="header__link" href="#">O nás</a>
           </li>
           <li class="header__list">
               <img src="../assets/images/header-hledat.svg" class="header__icon-menu"></img>
@@ -141,32 +145,32 @@
           <div class="col-12 col-md-3">
             <ul class="footer__menu dashed__item">
               <li class="footer__menu--list">
-                <a>Home</a>
+                <a class="footer__menu--link" href="#">English</a>
               </li>
               <li class="footer__menu--list">
-                <a>Box</a>
+                <a class="footer__menu--link" href="#">Kontakty</a>
               </li>
               <li class="footer__menu--list">
-                <a>Kontakty</a>
+                <a class="footer__menu--link" href="#">Údaje o společnosti</a>
               </li>
               <li class="footer__menu--list">
-                <a>Lorem</a>
+                <a class="footer__menu--link" href="#">Pravidla služby</a>
               </li>
             </ul>
           </div>
           <div class="col-12 col-md-3">
             <ul class="footer__menu dashed__item">
               <li class="footer__menu--list">
-                <a>Home</a>
+                <a class="footer__menu--link" href="#">Varianty</a>
               </li>
               <li class="footer__menu--list">
-                <a>Boxbox</a>
+                <a class="footer__menu--link" href="#">MojeID Lite</a>
               </li>
               <li class="footer__menu--list">
-                <a>Kontakty</a>
+                <a class="footer__menu--link" href="#">OTP</a>
               </li>
               <li class="footer__menu--list">
-                <a>Lorem</a>
+                <a class="footer__menu--link" href="#">Validace</a>
               </li>
             </ul>
           </div>
@@ -174,16 +178,16 @@
           <div class="col-12 col-md-3 ">
             <ul class="footer__menu">
               <li class="footer__menu--list">
-                <a>Home</a>
+                <a class="footer__menu--link" href="#">Statistiky</a>
               </li>
               <li class="footer__menu--list">
-                <a>Box</a>
+                <a class="footer__menu--link" href="#">Ke stažení</a>
               </li>
               <li class="footer__menu--list">
-                <a>Kontakty</a>
+                <a class="footer__menu--link" href="#">Vzorové implementace</a>
               </li>
               <li class="footer__menu--list">
-                <a>Lorem</a>
+                <a class="footer__menu--link" href="#">Mediakit</a>
               </li>
             </ul>
           </div>

@@ -1,6 +1,5 @@
 .footer {
     background-color: $color-gray-dark;
-    color: $color-gray;
     padding: 60px 30px 30px 30px;
 
     @media (max-width: 768px) {
@@ -17,10 +16,19 @@
         margin: 0;
         padding: 10px 0;
 
+        &--link {
+            color: $color-gray;
+
+            &:hover {
+                color: $color-blue;
+            }
+        }
+
         @media (min-width: 768px) {
             padding-top: 0;
             padding-bottom: 0;
         }
+
     }
 
     &__info {

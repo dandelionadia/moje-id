@@ -65,10 +65,26 @@
 
         & > span:not(:last-child)::after {
             content:' |';
+            margin-left: 10px;
         }
 
         &--color {
             color: $color-black-dark;
+        }
+
+        &--hover {
+            
+            &:hover {
+                color: $color-blue;
+            }
+        }
+    }
+
+    &__link {
+        color: $color-white;
+
+        &:hover {
+            color: $color-blue;
         }
     }
 
